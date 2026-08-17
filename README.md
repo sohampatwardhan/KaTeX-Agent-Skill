@@ -23,9 +23,9 @@ KaTeX renders a *subset* of LaTeX, and each host (GitHub, Joplin, …) only enab
 Clone into your personal skills directory (or symlink it):
 
 ```bash
-git clone https://github.com/<your-user>/KaTeX-skill.git ~/.claude/skills/katex
+git clone https://github.com/sohampatwardhan/KaTeX-Agent-Skill.git ~/.claude/skills/katex
 # or, to keep the repo elsewhere and symlink:
-ln -s /path/to/KaTeX-skill ~/.claude/skills/katex
+ln -s /path/to/KaTeX-Agent-Skill ~/.claude/skills/katex
 ```
 
 The skill is discovered automatically by its `description` frontmatter whenever you ask an agent to write or format math for a KaTeX viewer. Other agent runtimes recognize `~/.agents/skills/` as a cross-runtime location.
