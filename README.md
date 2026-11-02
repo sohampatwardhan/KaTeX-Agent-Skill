@@ -47,6 +47,16 @@ ln -s /path/to/KaTeX-Agent-Skill ~/.claude/skills/katex
 
 The skill is discovered automatically by its `description` frontmatter whenever you ask an agent to write or format math for a KaTeX viewer. Other agent runtimes recognize `~/.agents/skills/` as a cross-runtime location.
 
+## Versioning
+
+Every `SKILL.md` carries a [SemVer 2.0.0](https://semver.org) version in its frontmatter `metadata` map (`version: "1.0.0"`, quoted). Bump it on any change to the skill:
+
+- **PATCH** for wording tweaks and fixes.
+- **MINOR** for new guidance or changed behaviour.
+- **MAJOR** for breaking changes, such as renames or removed steps.
+
+CI runs `node scripts/check-skill-versions.mjs`, which fails if any `SKILL.md` is missing `metadata.version` or the value isn't valid SemVer.
+
 ## Sources
 
 Built against the official KaTeX documentation:
