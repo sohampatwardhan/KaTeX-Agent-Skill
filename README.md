@@ -18,7 +18,24 @@ KaTeX renders a *subset* of LaTeX, and each host (GitHub, Joplin, …) only enab
 | `SKILL.md` | Main reference: delimiters, dollar-sign rules, quick-reference patterns, common mistakes. |
 | `references/support-table.md` | Full curated list of supported functions/symbols/environments and the commands KaTeX rejects. |
 
-## Install (Claude Code)
+## Install
+
+### With the `skills` CLI
+
+Install with the [`skills` CLI](https://github.com/vercel-labs/skills) (Node.js 22.20 or later). It records the source, so `npx skills update` keeps the skill current:
+
+```bash
+# Global install for every agent the CLI detects
+npx skills add sohampatwardhan/KaTeX-Agent-Skill -g
+
+# Or only for chosen agents
+npx skills add sohampatwardhan/KaTeX-Agent-Skill -g -a claude-code -a codex
+
+# Update later
+npx skills update -g
+```
+
+### By hand (Claude Code)
 
 Clone into your personal skills directory (or symlink it):
 
