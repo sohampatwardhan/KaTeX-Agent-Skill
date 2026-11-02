@@ -1,6 +1,9 @@
 ---
 name: katex
 description: Use when writing, formatting, or debugging math expressions, equations, or LaTeX in Markdown that must render with KaTeX — GitHub Markdown/READMEs, Joplin notes, GitLab, Jupyter, Notion, or any KaTeX viewer. Covers inline vs block delimiters, the GitHub/Joplin dollar-sign rules, multi-line/aligned equations, matrices, cases, and which LaTeX commands KaTeX does NOT support.
+metadata:
+  author: sohampatwardhan
+  version: "1.0.0"
 ---
 
 # Writing Math for KaTeX (GitHub, Joplin, and other KaTeX viewers)
