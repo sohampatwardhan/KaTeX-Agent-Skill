@@ -1,5 +1,7 @@
 # katex — Agent Skill
 
+[![skills.sh](https://skills.sh/b/sohampatwardhan/katex-agent-skill)](https://skills.sh/sohampatwardhan/katex-agent-skill)
+
 An [Agent Skill](https://agentskills.io) that serves as a reference for AI coding agents (Claude Code, and any tool that supports the SKILL.md format) to **write and format mathematical expressions that render correctly in KaTeX viewers** — GitHub Markdown/READMEs, Joplin, GitLab, Jupyter, Notion, and VS Code preview.
 
 ## Why
@@ -22,7 +24,7 @@ KaTeX renders a *subset* of LaTeX, and each host (GitHub, Joplin, …) only enab
 
 ### With the `skills` CLI
 
-Install with the [`skills` CLI](https://github.com/vercel-labs/skills) (Node.js 22.20 or later). It records the source, so `npx skills update` keeps the skill current:
+The skill is listed on [skills.sh](https://skills.sh/sohampatwardhan/katex-agent-skill/katex). Install with the [`skills` CLI](https://github.com/vercel-labs/skills) (Node.js 22.20 or later). It records the source, so `npx skills update` keeps the skill current:
 
 ```bash
 # Global install for every agent the CLI detects
